@@ -6,11 +6,8 @@
     <title>Реєстрація на спортивний захід</title>
 </head>
 <body>
-
     <h1>Реєстрація на спортивний захід</h1>
-
     <form>
-
         <label for="name">Ім'я</label>
         <input
             type="text"
@@ -19,9 +16,7 @@
             placeholder="Введіть ім'я"
             required
         >
-
         <br><br>
-
         <label for="surname">Прізвище</label>
         <input
             type="text"
@@ -30,9 +25,7 @@
             placeholder="Введіть прізвище"
             required
         >
-
         <br><br>
-
         <label for="email">Електронна пошта</label>
         <input
             type="email"
@@ -41,9 +34,7 @@
             placeholder="Введіть email"
             required
         >
-
         <br><br>
-
         <label for="phone">Номер телефону</label>
         <input
             type="tel"
@@ -51,9 +42,7 @@
             name="phone"
             placeholder="Введіть номер телефону"
         >
-
         <br><br>
-
         <label for="age">Вік</label>
         <input
             type="number"
@@ -62,9 +51,7 @@
             min="12"
             max="80"
         >
-
         <br><br>
-
         <label for="date">Дата участі</label>
         <input
             type="date"
@@ -72,53 +59,35 @@
             name="date"
             required
         >
-
         <br><br>
-
         <p>Оберіть дистанцію:</p>
-
         <input type="radio" name="distance" value="2km" required>
         2 км
-
         <input type="radio" name="distance" value="5km">
         5 км
-
         <input type="radio" name="distance" value="10km">
         10 км
-
         <br><br>
-
         <p>Додаткові можливості:</p>
-
         <input type="checkbox" name="tshirt" value="tshirt">
         Отримати футболку
-
         <input type="checkbox" name="medal" value="medal">
         Отримати медаль
-
         <input type="checkbox" name="news" value="news">
         Отримувати новини про наступні заходи
-
         <input type="checkbox" name="rating" value="rating">
         Додати результати до загального рейтингу
-
         <br><br>
-
         <label for="category">Категорія учасника</label>
-
         <select name="category" id="category">
             <option value="student_school">Учень</option>
             <option value="student">Студент</option>
             <option value="adult">Дорослий</option>
             <option value="other">Інша категорія</option>
         </select>
-
         <br><br>
-
         <label for="info">Додаткова інформація для організаторів</label>
-
         <br>
-
         <textarea
             name="info"
             id="info"
@@ -127,12 +96,9 @@
             maxlength="250"
             placeholder="Введіть додаткову інформацію"
         ></textarea>
-
         <br><br>
-
         <button type="submit">Відправити</button>
         <button type="reset">Очистити</button>
-
     </form>
 
 </body>
